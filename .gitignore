@@ -1,0 +1,7 @@
+wip/
+todo/
+
+*.log
+
+*.zip
+*.tar.*
