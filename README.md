@@ -25,13 +25,13 @@ raw=true to an image does not process during Markdown to HTML conversion
 
 <div align="center">
 
-[![License][license]](/blob/trunk/LICENSE)
-[![Stars][stars]](/stargazers)
-[![Forks][forks]](/network/members)
-[![Watchers][watchers]](/watchers)
-[![Contributors][contributors]](/graphs/contributors)
-[![Commit Activity][commit-activity]](/pulse)
-[![Last Commit][last-commit]](/pulse)
+[![License][license]](/LICENSE)
+[![Stars][stars]](#stargazers)
+[![Forks][forks]](https://github.com/is-std/mini-repo/network/members)
+[![Watchers][watchers]](https://github.com/is-std/mini-repo/watchers)
+[![Contributors][contributors]](https://github.com/is-std/mini-repo/graphs/contributors)
+[![Commit Activity][commit-activity]](https://github.com/is-std/mini-repo/pulse)
+[![Last Commit][last-commit]](https://github.com/is-std/mini-repo/pulse)
 
 ### 🎉 The minimalist ready to go template repository for quick startup 🎇
 
