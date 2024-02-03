@@ -3,10 +3,11 @@
   <img height="130" src="/docs/assets/img/repo-logo.svg?raw=true" alt="repo-logo">
   </a>
   <a href="https://octodex.github.com">
-  <!-- https://github.com/bdougie/bdougie -->
+  <!-- octocat.gif is taken from https://github.com/bdougie/bdougie -->
   <img width="200" src="/docs/assets/img/octocat.gif?raw=true" alt="github-octocat">
   </a>
 </div>
+
 <!-- https://shields.io/badges/static-badge
 https://img.shields.io/badge/mini-repo-brightgreen?style=flat
 https://img.shields.io/badge/template-mini--repo-brightgreen?style=flat
