@@ -26,7 +26,7 @@ raw=true to an image does not process during Markdown to HTML conversion
 <div align="center">
 
 [![License][license]](/LICENSE)
-[![Stars][stars]](#stargazers)
+[![Stars][stars]](stargazers)
 [![Forks][forks]](https://github.com/is-std/mini-repo/network/members)
 [![Watchers][watchers]](https://github.com/is-std/mini-repo/watchers)
 [![Contributors][contributors]](https://github.com/is-std/mini-repo/graphs/contributors)
