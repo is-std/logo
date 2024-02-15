@@ -1,1 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="20" role="img" aria-label="template: mini-repo"><title>template: mini-repo</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="122" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="59" height="20" fill="#555"/><rect x="59" width="63" height="20" fill="#4c1"/><rect width="122" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="305" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="490">template</text><text x="305" y="140" transform="scale(.1)" fill="#fff" textLength="490">template</text><text aria-hidden="true" x="895" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">mini-repo</text><text x="895" y="140" transform="scale(.1)" fill="#fff" textLength="530">mini-repo</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="20" role="img">
+  <style>
+    @font-face {
+      font-family: "Bluetea";
+      src: url(data:font/woff2;base64,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) format("woff2");
+    }
+    text {
+      font-family: Bluetea, sans-serif;
+      font-size: 110px;
+    }
+  </style>
+
+  <clipPath id="r">
+    <rect width="122" height="20" fill="#fff" rx="3"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="59" height="20" fill="#555"/>
+    <rect x="59" width="63" height="20" fill="#4c1"/>
+  </g>
+  <g text-anchor="middle" text-rendering="geometricPrecision">
+    <text x="305" y="140" transform="scale(.1)" textLength="490" fill="#4c1">template</text>
+    <text x="895" y="140" transform="scale(.1)" textLength="530" fill="#555">mini-repo</text>
+  </g>
+</svg>
