@@ -11,7 +11,7 @@ and any kind of contribution is welcome. ✨ 😃 ✨
 - [Learn how to contribute through **fork** on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 - [Following GitHub flows to collaborate on a project](https://docs.github.com/en/get-started/using-github/github-flow)
 
-## Coding Conventions
+## Prefered Coding Style Conventions
 
 > [!NOTE]
 > [可读性 & 维护性 & 一致性](https://google.github.io/styleguide)
