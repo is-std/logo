@@ -7,6 +7,7 @@
 
 - https://docs.github.com/en/communities
 - https://github.blog/2020-01-22-how-we-built-good-first-issues
+- https://docs.github.com/articles/creating-a-template-repository
 - https://docs.github.com/articles/creating-a-repository-from-a-template
 - https://docs.github.com/articles/about-issue-and-pull-request-templates
 - https://docs.github.com/articles/setting-guidelines-for-repository-contributors
