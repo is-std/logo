@@ -18,24 +18,24 @@ and any kind of contribution is welcome. ✨ 😃 ✨
 
 When start reading the code and you'll get the hang of it.
 
-- __ALWAYS__ use `UTF-8` encoding.
-- The maximum line length __PREFER__ `80` chars.
-- __ALWAYS__ indent with `two` spaces, `NO` tabs.
-- The line ending __PREFER__ using `LF`, not `CRLF`.
-- The end of file should __ALWAYS__ have one empty line.
-- __ALWAYS__ make sure no-trailing whitespace to the end of line.
-- __PREFER__ `cwd-relative` paths rather than `root-relative` paths in image URLs.
+- **ALWAYS** use `UTF-8` encoding.
+- The maximum line length **PREFER** `80` chars.
+- **ALWAYS** indent with `two` spaces, `NO` tabs.
+- The line ending **PREFER** using `LF`, not `CRLF`.
+- The end of file should **ALWAYS** have one empty line.
+- **ALWAYS** make sure no-trailing whitespace to the end of line.
+- **PREFER** `cwd-relative` paths rather than `root-relative` paths in image URLs.
 - Look around and make consistent changes with the around coding style.
 - Consider the people who will read your code, and make it look nice for them.
 
 ## Issues
 
-#### Create New Issue
+### Create New Issue
 
-- If a related issue does not exist, you can open a [new issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue).
-- If you spot a problem, [search for issues and pull requests on GitHub](https://docs.github.com/articles/searching-issues-and-pull-requests).
+- If a related issue does not exist, you can open a [new issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
+- If you spot a problem, [search for issues and pull requests on GitHub](https://docs.github.com/articles/searching-issues-and-pull-requests)
 
-#### Solve Existing Issue
+### Solve Existing Issue
 
 - Use [labels](https://docs.github.com/en/contributing/collaborating-on-github-docs/label-reference) to find an issue you would like to help with.
 - Scan through the [existing issues](https://docs.github.com/articles/searching-issues-and-pull-requests) to find that interests you.

@@ -2,4 +2,9 @@
 *.zip
 *.tar.*
 
+wip/
+out/
+idea/
 todo/
+work/
+build/

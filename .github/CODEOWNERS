@@ -1,0 +1,19 @@
+# NOTE https://git-scm.com/docs/gitignore#_pattern_format
+# CODEOWNERS follows most of the rules used in gitignore files.
+# Order is important: The last matching pattern takes precedence.
+
+# The default owners
+* @UserName  @OrgsName  user@example.com
+
+# Folders in root directory
+/*      @UserName/TeamName
+
+# Markdown in root directory
+/*.md   @OrgsName/TeamName
+
+# GitHub related files
+/.github/*   user@example.com
+
+# File or module owners
+/path/to/folder     @OrgsName
+/docs/CHANGELOG.md  @UserName
