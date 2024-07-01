@@ -23,10 +23,10 @@
   * <https://pages.github.com>
   * <https://github.com/pages-themes>
 
-- `.github/ISSUE-TEMPLATE/*.{md,yml}`
+- `.github/ISSUE_TEMPLATE/*.{md,yml}`
   * `.github/issue-template.md`
-  * `.github/ISSUE-TEMPLATE/1-bug-report.md`
-  * `.github/ISSUE-TEMPLATE/2-feature-request.md`
+  * `.github/ISSUE_TEMPLATE/1-bug-report.md`
+  * `.github/ISSUE_TEMPLATE/2-feature-request.md`
 
 - `.github/PULL-REQUEST-TEMPLATE/*.md`
   * `.github/pull-request-template.md`
