@@ -2,7 +2,7 @@
 # https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
 # 关于 markdownlint-cli2 => https://dlaa.me/blog/post/markdownlintcli2
 # 全局安装 $ npm install --global markdownlint-cli2
-# 检测命令 $ markdownlint-cli2 README.md
+# 检测命令 $ markdownlint-cli2 --no-globs README.md
 
 # Enable default value for all rules
 default: true

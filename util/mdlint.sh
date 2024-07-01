@@ -28,5 +28,5 @@ done
 REPO_ROOT_DIR="${THIS_DIR%/*}"
 
 for it in $(find "${REPO_ROOT_DIR}" -type f -name '*.md' -print); do
-  [[ ! "${it}" =~ *node_modules* ]] && ${mdlint} ${it}
+  [[ ! "${it}" =~ *node_modules* ]] && ${mdlint} --no-globs ${it}
 done
