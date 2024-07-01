@@ -31,6 +31,7 @@
 - Comes with a ready to go `README.md` template.
 - Replace `xwlc/mini-repo` in [README.md](/README.md) to new name.
 - Replace `docs/assets/img/repo-logo.svg` to the new repository logo.
+- Replace **@charlie-wong** in `.github/CODEOWNERS` to **@YourGhName**
 
 ### TODO
 

@@ -43,7 +43,8 @@
   * <https://help.github.com/articles/setting-guidelines-for-repository-contributors>
 
 - `.github/CODEOWNERS`
-  * <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners>
+  * <https://help.github.com/articles/about-codeowners>
+  * <https://github.blog/2017-07-06-introducing-code-owners>
 
 - `.github/CODE-OF-CONDUCT.md`
   * <https://github.com/xwlc/.github/blob/trunk/.github/CODE-OF-CONDUCT.md>

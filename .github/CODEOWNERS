@@ -1,19 +1,21 @@
-# NOTE https://git-scm.com/docs/gitignore#_pattern_format
+# This feature will automatically request reviews from the
+# code owners when a pull request changes any related files.
+#
+# NOTE https://github.blog/2017-07-06-introducing-code-owners
 # CODEOWNERS follows most of the rules used in gitignore files.
-# Order is important: The last matching pattern takes precedence.
+#
+# - words after '#' are comments, using \# to escape
+# - order is important, last match pattern takes precedence.
+# - each line consists of pattern followed by one or more owners
+#   PATTERN   @UserName  user@example.com  @OrgsName/TeamName
+#   NOTE Using ! to negate PATTERN, and [ ] to define char range
 
-# The default owners
-* @UserName  @OrgsName  user@example.com
+# The default owners for everything in the repo
+* @charlie-wong
 
-# Folders in root directory
-/*      @UserName/TeamName
-
-# Markdown in root directory
-/*.md   @OrgsName/TeamName
-
-# GitHub related files
-/.github/*   user@example.com
-
-# File or module owners
-/path/to/folder     @OrgsName
-/docs/CHANGELOG.md  @UserName
+# PATTERN               Description
+# /*                    Everything in the repo root directory
+# /*.md                 All markdown files in the repo root
+# /.github/*            Everything in the .github folder
+# /path/to/folder/*     Everything in the specified directory
+# /docs/CHANGELOG.md    Only the specified changelog file
