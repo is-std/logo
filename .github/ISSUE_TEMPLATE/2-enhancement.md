@@ -1,7 +1,7 @@
 ---
-name: Feature Request
-about: "Template for Feature Request"
-title: "[YYYY-MM-DD]: [Short Description]"
+name: 🚀 Feature Request
+about: "Template for feature request"
+title: "YYYY-MM-DD: short description"
 labels: "enhancement"
 assignees:
 ---

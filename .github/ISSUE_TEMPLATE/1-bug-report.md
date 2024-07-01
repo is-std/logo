@@ -1,7 +1,7 @@
 ---
-name: Bug Report
-about: "Template for Bug Report"
-title: "[YYYY-MM-DD]: [Short Description]"
+name: 🐛 Bug Report
+about: "Template for bug report"
+title: "YYYY-MM-DD: short description"
 labels: "bug"
 assignees:
 ---

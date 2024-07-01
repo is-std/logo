@@ -28,13 +28,13 @@
   * <https://github.com/pages-themes>
 
 - `.github/ISSUE_TEMPLATE/*.{md,yml}`
-  * `.github/issue-template.md`
+  * `.github/ISSUE-TEMPLATE.md`
   * `.github/ISSUE_TEMPLATE/1-bug-report.md`
   * `.github/ISSUE_TEMPLATE/2-enhancement.md`
 
-- `.github/PULL_REQUEST_TEMPLATE/*.md`
-  * `.github/pull-request-template.md`
-  * `.github/PULL_REQUEST_TEMPLATE/1-pull-request.md`
+- `.github/PULL_REQUEST_TEMPLATE/*.{md,yml}`
+  * `.github/PULL-REQUEST-TEMPLATE.md`
+  * `.github/PULL_REQUEST_TEMPLATE/pull-request.md`
 
 - `.github/workflows/*.yml`
   * <https://github.com/sdras/awesome-actions>
@@ -42,25 +42,29 @@
   * <https://github.blog/2016-02-17-issue-and-pull-request-templates>
   * <https://help.github.com/articles/helping-people-contribute-to-your-project>
 
-- `.github/CONTRIBUTING.md`, `.github/CONTRIBUTORS.md`, `.github/MAINTAINERS.md`
-  * <https://github.com/nayafia/contributing-template>
-  * <https://help.github.com/articles/setting-guidelines-for-repository-contributors>
-
 - `.github/CODEOWNERS`
   * <https://help.github.com/articles/about-codeowners>
   * <https://github.blog/2017-07-06-introducing-code-owners>
+
+- `.github/SECURITY.md`
+  * <https://docs.github.com/articles/adding-a-security-policy-to-your-repository>
+- `.github/dependabot.yml`
+  * <https://docs.github.com/en/code-security/dependabot/dependabot-security-updates>
+
+- `.github/CONTRIBUTING.md`, `.github/CONTRIBUTORS.md`, `.github/MAINTAINERS.md`
+  * <https://github.com/nayafia/contributing-template>
+  * <https://help.github.com/articles/setting-guidelines-for-repository-contributors>
 
 - `.github/CODE-OF-CONDUCT.md`
   * <https://github.com/xwlc/.github/blob/trunk/.github/CODE-OF-CONDUCT.md>
 
 - `.github/SUPPORT.md`
-- `.github/SECURITY.md`
-  * <https://docs.github.com/articles/adding-a-security-policy-to-your-repository>
 - `.github/FUNDING.yml`
 - `.github/GOVERNANCE.md`
 
 - `<REPO>/CNAME`
 - `<REPO>/LICENSE`
+
 - `<REPO>/README.md`
   * <https://docs.github.com/articles/about-readmes>
   * <https://docs.github.com/articles/customizing-your-profile>
