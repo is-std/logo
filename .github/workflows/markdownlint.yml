@@ -1,5 +1,5 @@
 # https://docs.github.com/articles/workflow-syntax-for-github-actions
-name: Markdownlint all *.md files
+name: markdownlint all *.md files
 
 on:
   push:
@@ -7,11 +7,15 @@ on:
       - trunk
     paths:
       - '**.md'
+      - util/mdlint.sh
+      - .markdownlint.yaml
+      - .github/workflows/markdownlint.yml
   pull_request:
     branches:
       - trunk
     paths:
       - '**.md'
+      - util/mdlint.sh
       - .markdownlint.yaml
       - .github/workflows/markdownlint.yml
 
