@@ -17,6 +17,10 @@
 - <https://stefanbuck.com/awesome-browser-extensions-for-github>
 - <https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository>
 
+- <https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels>
+  * 默认 bug, enhancement, documentation, question, wontfix, invalid, duplicate
+  * configure labels `https://github.com/organizations/OrgName/settings/repository-defaults`
+
 ## Repo Healthy Files
 
 - `<REPO>/docs/CHANGELOG.md`
@@ -26,11 +30,11 @@
 - `.github/ISSUE_TEMPLATE/*.{md,yml}`
   * `.github/issue-template.md`
   * `.github/ISSUE_TEMPLATE/1-bug-report.md`
-  * `.github/ISSUE_TEMPLATE/2-feature-request.md`
+  * `.github/ISSUE_TEMPLATE/2-enhancement.md`
 
-- `.github/PULL-REQUEST-TEMPLATE/*.md`
+- `.github/PULL_REQUEST_TEMPLATE/*.md`
   * `.github/pull-request-template.md`
-  * `.github/PULL-REQUEST-TEMPLATE/1-pull-request.md`
+  * `.github/PULL_REQUEST_TEMPLATE/1-pull-request.md`
 
 - `.github/workflows/*.yml`
   * <https://github.com/sdras/awesome-actions>

@@ -1,18 +1,18 @@
 ---
-name: New Feature Request
-about: "Template for New Feature Request"
+name: Feature Request
+about: "Template for Feature Request"
 title: "[YYYY-MM-DD]: [Short Description]"
-labels: "feature"
+labels: "enhancement"
 assignees:
 ---
 
 ## Description
 
-<!-- ✍️ Summarize new feature in short sentences -->
+<!-- ✍️ Summarize enhancement in short sentences -->
 
 ## Motivation
 
-<!-- ❓ How does the new feature help -->
+<!-- ❓ How does the new feature or enhancement help -->
 
 ## Extra Info
 
