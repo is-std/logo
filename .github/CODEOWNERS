@@ -1,11 +1,12 @@
 # This feature will automatically request reviews from the
 # code owners when a pull request changes any related files.
 #
-# NOTE https://github.blog/2017-07-06-introducing-code-owners
+# NOTE https://docs.github.com/articles/about-codeowners
+#      https://github.blog/2017-07-06-introducing-code-owners
 # CODEOWNERS follows most of the rules used in gitignore files.
 #
 # - words after '#' are comments, using \# to escape
-# - order is important, last match pattern takes precedence.
+# - order is important, LAST match has the MOST precedence
 # - each line consists of pattern followed by one or more owners
 #   PATTERN   @UserName  user@example.com  @OrgsName/TeamName
 #   NOTE Using ! to negate PATTERN, and [ ] to define char range
