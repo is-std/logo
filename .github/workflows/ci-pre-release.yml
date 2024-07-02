@@ -1,0 +1,23 @@
+# https://docs.github.com/articles/workflow-syntax-for-github-actions
+name: "[TODO] Build/Deploy/Release for the tag events matching v*"
+
+# NOTE 上传 push 包含 v1.2.3 标签时触发
+
+on:
+  push:
+    tags:
+      - "v*"
+
+concurrency:
+  cancel-in-progress: true
+  group: ci-pre-release-${{ github.ref }}
+
+jobs:
+  ci-pre-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+        echo "- https://github.com/actions/upload-artifact"
+        echo "- https://github.com/softprops/action-gh-release"
+        echo "- https://github.com/semantic-release/semantic-release"
