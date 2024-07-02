@@ -36,6 +36,9 @@
   * `.github/PULL-REQUEST-TEMPLATE.md`
   * `.github/PULL_REQUEST_TEMPLATE/pull-request.md`
 
+- `.github/actions/*/{action.yml,*}`
+  * <https://docs.github.com/en/actions/creating-actions/about-custom-actions>
+
 - `.github/workflows/*.yml`
   * <https://github.com/sdras/awesome-actions>
   * <https://docs.github.com/en/actions>
