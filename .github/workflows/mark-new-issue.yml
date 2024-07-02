@@ -1,0 +1,22 @@
+# https://docs.github.com/articles/workflow-syntax-for-github-actions
+name: "Mark new issue with [needs triage] label"
+
+# https://github.com/UserID/RepoName/issues/labels
+
+on:
+  issues:
+    types:
+      - opened
+      - reopened
+
+jobs:
+  mark-new-issue:
+    runs-on: ubuntu-latest
+    steps:
+      # https://github.com/andymckay/labeler
+      # https://github.com/github/issue-labeler
+      - uses: andymckay/labeler@master
+        with:
+          add-labels: "needs triage"
+          ignore-if-labeled: true
+          ignore-if-assigned: true

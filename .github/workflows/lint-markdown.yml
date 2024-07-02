@@ -1,26 +1,28 @@
 # https://docs.github.com/articles/workflow-syntax-for-github-actions
-name: markdownlint all *.md files
+name: "Lint all *.md files by markdownlint"
+
+# NOTE 当且仅当 trunk 分支 push 或 PR 事件: 修改(paths)指定文件时触发
 
 on:
   push:
     branches:
       - trunk
     paths:
-      - '**.md'
+      - "**.md"
       - util/mdlint.sh
       - .markdownlint.yaml
-      - .github/workflows/markdownlint.yml
+      - .github/workflows/lint-markdown.yml
   pull_request:
     branches:
       - trunk
     paths:
-      - '**.md'
+      - "**.md"
       - util/mdlint.sh
       - .markdownlint.yaml
-      - .github/workflows/markdownlint.yml
+      - .github/workflows/lint-markdown.yml
 
 jobs:
-  markdownlint-checker:
+  lint-markdown:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
